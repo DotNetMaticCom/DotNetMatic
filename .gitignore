@@ -1,0 +1,12 @@
+# Visual Studio automatically creates these directories when building the solution
+bin/
+obj/
+
+# If you are using VS Code, include its specific directories as well
+.vscode/
+.DS_Store
+
+# Other common directories and files to ignore
+*.user
+*.suo
+*.cache
