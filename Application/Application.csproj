@@ -1,0 +1,33 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <TargetFramework>net8.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Domain\Domain.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <PackageReference Include="AutoMapper" Version="13.0.1" />
+    <PackageReference Include="MediatR" Version="12.4.0" />
+<PackageReference Include="DotNetMatic.Core.Application" Version="1.0.1" />
+<PackageReference Include="DotNetMatic.Core.Mailing" Version="1.0.1" />
+<PackageReference Include="DotNetMatic.Core.Mailing.Mailkit" Version="1.0.1" />
+<PackageReference Include="DotNetMatic.Core.CrossCuttingConcerns.Exception" Version="1.0.1" />
+<PackageReference Include="DotNetMatic.Core.CrossCuttingConcerns.Logging.Serilog.File" Version="1.0.1" />
+<PackageReference Include="DotNetMatic.Core.Localization.Abstraction" Version="1.0.1" />
+<PackageReference Include="DotNetMatic.Core.Localization.Resource.Yaml.DependencyInjection" Version="1.0.1" />
+<PackageReference Include="DotNetMatic.Core.ElasticSearch" Version="1.0.1" />
+<PackageReference Include="DotNetMatic.Core.Security.DependencyInjection" Version="1.0.1" />
+
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Services\" />
+    <Folder Include="Services\Repositories" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Update="Features\**\Resources\Locales\*.*.yaml">
+        <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+</Project>

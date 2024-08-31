@@ -1,0 +1,271 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/serkanozdogan/Desktop/Info/DotNetMatic/src/starterProject/Persistence/Persistence.csproj": {}
+  },
+  "projects": {
+    "/Users/serkanozdogan/Desktop/Info/DotNetMatic/src/starterProject/Application/Application.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/serkanozdogan/Desktop/Info/DotNetMatic/src/starterProject/Application/Application.csproj",
+        "projectName": "Application",
+        "projectPath": "/Users/serkanozdogan/Desktop/Info/DotNetMatic/src/starterProject/Application/Application.csproj",
+        "packagesPath": "/Users/serkanozdogan/.nuget/packages/",
+        "outputPath": "/Users/serkanozdogan/Desktop/Info/DotNetMatic/src/starterProject/Application/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/serkanozdogan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/serkanozdogan/Desktop/Info/DotNetMatic/src/starterProject/Domain/Domain.csproj": {
+                "projectPath": "/Users/serkanozdogan/Desktop/Info/DotNetMatic/src/starterProject/Domain/Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[13.0.1, )"
+            },
+            "DotNetMatic.Core.Application": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "DotNetMatic.Core.CrossCuttingConcerns.Exception": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "DotNetMatic.Core.CrossCuttingConcerns.Logging.Serilog.File": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "DotNetMatic.Core.ElasticSearch": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "DotNetMatic.Core.Localization.Abstraction": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "DotNetMatic.Core.Localization.Resource.Yaml.DependencyInjection": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "DotNetMatic.Core.Mailing": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "DotNetMatic.Core.Mailing.Mailkit": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "DotNetMatic.Core.Security.DependencyInjection": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "MediatR": {
+              "target": "Package",
+              "version": "[12.4.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/serkanozdogan/Desktop/Info/DotNetMatic/src/starterProject/Domain/Domain.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/serkanozdogan/Desktop/Info/DotNetMatic/src/starterProject/Domain/Domain.csproj",
+        "projectName": "Domain",
+        "projectPath": "/Users/serkanozdogan/Desktop/Info/DotNetMatic/src/starterProject/Domain/Domain.csproj",
+        "packagesPath": "/Users/serkanozdogan/.nuget/packages/",
+        "outputPath": "/Users/serkanozdogan/Desktop/Info/DotNetMatic/src/starterProject/Domain/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/serkanozdogan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "DotNetMatic.Core.Persistence": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "DotNetMatic.Core.Security": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "/Users/serkanozdogan/Desktop/Info/DotNetMatic/src/starterProject/Persistence/Persistence.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/serkanozdogan/Desktop/Info/DotNetMatic/src/starterProject/Persistence/Persistence.csproj",
+        "projectName": "Persistence",
+        "projectPath": "/Users/serkanozdogan/Desktop/Info/DotNetMatic/src/starterProject/Persistence/Persistence.csproj",
+        "packagesPath": "/Users/serkanozdogan/.nuget/packages/",
+        "outputPath": "/Users/serkanozdogan/Desktop/Info/DotNetMatic/src/starterProject/Persistence/obj/",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "/Users/serkanozdogan/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "net8.0"
+        ],
+        "sources": {
+          "/usr/local/share/dotnet/library-packs": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net8.0": {
+            "targetAlias": "net8.0",
+            "projectReferences": {
+              "/Users/serkanozdogan/Desktop/Info/DotNetMatic/src/starterProject/Application/Application.csproj": {
+                "projectPath": "/Users/serkanozdogan/Desktop/Info/DotNetMatic/src/starterProject/Application/Application.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        },
+        "restoreAuditProperties": {
+          "enableAudit": "true",
+          "auditLevel": "low",
+          "auditMode": "direct"
+        }
+      },
+      "frameworks": {
+        "net8.0": {
+          "targetAlias": "net8.0",
+          "dependencies": {
+            "DotNetMatic.Core.Persistence": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "DotNetMatic.Core.Persistence.DependencyInjection": {
+              "target": "Package",
+              "version": "[1.0.1, )"
+            },
+            "Microsoft.EntityFrameworkCore.InMemory": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[8.0.8, )"
+            },
+            "Microsoft.Extensions.Configuration.Abstractions": {
+              "target": "Package",
+              "version": "[8.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/8.0.204/PortableRuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}
